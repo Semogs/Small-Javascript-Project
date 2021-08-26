@@ -2,14 +2,77 @@
 <html lang="en">
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@500&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <link href="../css/style.css" rel="stylesheet" />
 </head>
 
-<body>
-    <div>About Page</div>
+<body class="wrapper">
+    <section>
+        <div>
+            <nav class="nav-item">
+                <ul class="main-menu">
+                    <li class="menu-li"><a href="../index.html">Home</a></li>
+                    <li class="menu-li"><a href="./about.html">About</a></li>
+                    <li class="menu-li"><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section class="row">
+        <div class="column">
+            <h2>Why I am Interested in Coding</h2>
+        <p>Hello! My name is Semih. I have been interested in coding since highschool. Coding was always a subject
+            that I wanted to learn. Being able to create softwares and websites through coding always intrigued me.</p>
+        </div>
+        <div class="column">
+            <h2>Education and Career</h2>
+            <p>I graduated from the Communications Faculty of Marmara University. After graduation I worked
+            as a Data Analyst for an online shopping company Lidyana.com, then worked with Sommercable (who sell AV and connection cables) as a
+            Sales Analyst.</p>
+        </div>
+        <div class="column">
+            <h2>My Personal Interests</h2>
+            <p>In my recreational times I generally like to play video games, solve puzzles and create electronic music tracks with my keyboard. Occasionally on weekeds I like to hiking and or camping with my friends.</p>
+        </div>
+    </section>
+    <section class="city-info">
+        <p class="cities">I was born in Istanbul and lived in Istanbul until I made aliyah to Israel. Since July I have been living in
+            Tel-aviv. I've always wanted to visit Los Angeles for it's environment and beautiful places to visit. Another city that I want to visit is Tokyo. I am curious about interesting places and their cuisine. </p>
+    <div class="gmap">
+        <div class="map-gallery">
+            <iframe class="map-img active" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239992.7748046082!2d28.87098185276725!3d41.006209325287045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7040068086b%3A0xe1ccfe98bc01b0d0!2s%C4%B0stanbul%2C%20Turkey!5e0!3m2!1sen!2sil!4v1629297090602!5m2!1sen!2sil" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe class="map-img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108169.74093065849!2d34.72720513951928!3d32.08805767576411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d4ca6193b7c1f%3A0xc1fb72a2c0963f90!2sTel%20Aviv-Yafo!5e0!3m2!1sen!2sil!4v1629297976335!5m2!1sen!2sil" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe class="map-img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423283.43556854007!2d-118.69193128882294!3d34.020730494168454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2sil!4v1629298113700!5m2!1sen!2sil" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe class="map-img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1662934.3552303594!2d138.64846094372376!3d35.50628940346834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2sTokyo%2C%20Japan!5e0!3m2!1sen!2sil!4v1629298161526!5m2!1sen!2sil" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="btns">
+            <button disabled class="btn prev">Prev</button>
+            <button class="btn next">Next</button>
+        </div>
+    </div>
+    </section>
+    <footer>
+        <section class="fnav">
+          <div>
+            <nav class="fnav-item">
+              <ul class="fmain-menu">
+                <li class="fmenu-li"><a href="../index.html">Home</a></li>
+                <li class="fmenu-li"><a href="./about.html">About</a></li>
+                <li class="fmenu-li"><a href="./contact.html">Contact</a></li>
+                <li id="footer" class="footer"></li>
+              </ul>
+            </nav>
+          </div>
+        </section>
+      </footer>
+    <script src="../js/maps.js"></script>
+    <script src="../js/footer.js"></script>
 </body>
 
 </html>

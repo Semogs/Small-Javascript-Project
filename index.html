@@ -5,29 +5,58 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/945cc4488a.js" crossorigin="anonymous"></script>
   <title>ITC Precourse</title>
   <title>ITC Fullstack Development.</title>
   <link href="./css/style.css" rel="stylesheet" />
 </head>
 
-<body>
+<body class="wrapper">
+  <section class="nav">
+    <div>
+      <nav class="nav-item">
+        <ul class="main-menu">
+          <li class="menu-li"><a href="./index.html">Home</a></li>
+          <li class="menu-li"><a href="./pages/about.html">About</a></li>
+          <li class="menu-li"><a href="./pages/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </section>
   <section>
-    <nav class="nav-item">
-      <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./pages/about.html">About</a></li>
-        <li><a href="./pages/contact.html">Contact</a></li>
+    <div id="card" class="card">
+      <img id="profile-image" src="./images/code.png" alt="Semih Moreno" class="profile-image show" />
+      <h1 id="myName"></h1>
+      <h3>ITC Fullstack Development</h3>
+      <ul class="icon-menu">
+        <a href="https://www.linkedin.com/in/semih-moreno-15788713a/">
+          <li class="fab fa-linkedin icon"></li>
+        </a>
+        <a href="https://github.com/Semogs">
+          <li class="fab fa-github icon"></li>
+        </a>
+        <a href="https://stackoverflow.com/users/16561745/semi-moreno">
+          <li class="fab fa-stack-overflow icon"></li>
+        </a>
       </ul>
-    </nav>
-    <div class="card">
-      <img id="profile-image" src="./images/code.png" alt="Israel Tech Challenge" class="profile-image" />
-      <h1 id="myName">Semih Moreno</h1>
     </div>
   </section>
   <footer>
-    <div>&#169; Israel Tech Challenge</div>
+    <section class="fnav">
+      <div>
+        <nav class="fnav-item">
+          <ul class="fmain-menu">
+            <li class="fmenu-li"><a href="./index.html">Home</a></li>
+            <li class="fmenu-li"><a href="./pages/about.html">About</a></li>
+            <li class="fmenu-li"><a href="./pages/contact.html">Contact</a></li>
+            <li id="footer" class="footer"></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
   </footer>
-  <script src="itcprecourse.js"></script>
+  <script src="./js/portfolio.js"></script>
+  <script src="./js/footer.js"></script>
 </body>
 
 </html>

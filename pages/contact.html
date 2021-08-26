@@ -2,14 +2,69 @@
 <html lang="en">
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@500&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link href="../css/style.css" rel="stylesheet" />
 </head>
 
-<body>
-    <div>Contact Page</div>
+<body class="wrapper">
+    <section>
+        <div>
+            <nav class="nav-item">
+                <ul class="main-menu">
+                    <li class="menu-li"><a href="../index.html">Home</a></li>
+                    <li class="menu-li"><a href="./about.html">About</a></li>
+                    <li class="menu-li"><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+        <section class="form">
+            <form action="https://formspree.io/f/xpzkowka" method="POST">
+                <input type="hidden" name="send_to" value="semi.moreno1@gmail.com">
+                <fieldset>
+                    <label for="firstname">First Name </label>
+                    <input type="text" id="firstname" name="firstname" required>
+                    <label for="lastname">Last Name </label>
+                    <input type="text" id="lastname" name="lastname">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="comments">Add a comment:</label>
+                    <textarea id="comments" name="comments" required></textarea>
+                    <label for="hours">How many hours do you need my service? </label>
+                    <select class="req" id="hours" name="hours" required>
+                        <option selected value="">Select one...</option>
+                        <option value="1h">1 Hour</option>
+                        <option value="2h">2 Hours</option>
+                        <option value="3h">3 Hours</option>
+                        <option value="4h">4 Hours</option>
+                        <option value="4ph">4+ Hours</option>
+                    </select>
+                </fieldset>
+                <button disabled class="sbtn submit" type="submit">Submit</button>
+            </form>
+            </section>
+            <footer>
+                <section class="fnav">
+                  <div>
+                    <nav class="fnav-item">
+                      <ul class="fmain-menu">
+                        <li class="fmenu-li"><a href="../index.html">Home</a></li>
+                        <li class="fmenu-li"><a href="./about.html">About</a></li>
+                        <li class="fmenu-li"><a href="./contact.html">Contact</a></li>
+                        <li id="footer" class="footer"></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </section>
+              </footer>
+            <script src="../js/contact.js"></script>
+            <script src="../js/footer.js"></script>
 </body>
 
 </html>
