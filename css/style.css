@@ -7,7 +7,7 @@ body {
 }
 
 .wrapper {
-  background-color: #cce800;
+  background-color: #86a3c3;
 }
 
 @keyframes color {
@@ -75,7 +75,7 @@ body {
   padding: 0px;
   margin: -10px;
   width: 110%;
-  background-color: #330b44;
+  background-color: black;
 }
 .menu-li {
   display: inline-block;
@@ -91,7 +91,7 @@ body {
 }
 
 .nav-item a:hover {
-  background-color: #cce800;
+  background-color: #86a3c3;
   color: black;
 }
 
@@ -162,7 +162,7 @@ select {
   margin: 2rem 0;
   border: none;
   padding: 0.5rem 1rem;
-  background-color: #330b44;
+  background-color: #030734;
   cursor: pointer;
   color: white;
   box-shadow: 2px 2px 2px 0px black;
@@ -210,7 +210,7 @@ h4 {
   justify-content: center;
 }
 .btn {
-  background-color: #330b44;
+  background-color: #030734;
   color: white;
   font-size: 20px;
   padding: 5px 20px;
@@ -261,7 +261,7 @@ h4 {
   padding: 0px;
   margin: -10px;
   width: 101.35%;
-  background-color: #330b44;
+  background-color: black;
   bottom: 0px;
   left: 7px;
   right: 0px;
@@ -280,7 +280,7 @@ h4 {
 }
 
 .fnav-item a:hover {
-  background-color: #cce800;
+  background-color: #86a3c3;
   color: black;
 }
 
