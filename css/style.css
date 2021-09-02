@@ -43,7 +43,7 @@ body {
   flex-direction: column;
   margin: 50px;
   padding: 50px;
-  transition: all 2s;
+  transition: all 1.5s;
 }
 
 .card:hover {
@@ -166,7 +166,7 @@ select {
   cursor: pointer;
   color: white;
   box-shadow: 2px 2px 2px 0px black;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .sbtn:disabled {
@@ -186,13 +186,6 @@ h4 {
   font-weight: normal;
 }
 
-.map-img {
-  display: none;
-  max-height: 600px;
-}
-.active {
-  display: block;
-}
 .map-gallery {
   width: 100%;
   display: flex;
@@ -259,16 +252,15 @@ h4 {
 .fmain-menu {
   list-style-type: none;
   padding: 0px;
-  margin: -10px;
-  width: 101.35%;
+  margin: 0px;
+  width: 100%;
   background-color: black;
   bottom: 0px;
-  left: 7px;
-  right: 0px;
+  left: 0px;
+  position: fixed;
 }
 .fmenu-li {
   display: inline-block;
-  flex-flow: nowrap;
   font-size: 14px;
 }
 .fnav-item a {

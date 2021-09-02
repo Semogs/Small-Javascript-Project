@@ -22,22 +22,3 @@ function sentence(codingLanguages) {
 }
 
 footer.innerHTML = sentence(codingLanguages)
-
-/*
-function sentence(codingLanguages) {
-    if (codingLanguages.length === 1) {
-        return beginningOfSentence + codingLanguages[0]
-    } else {
-        codingLanguages.forEach(function(word, index) {
-            let rest = ""
-            if (codingLanguages.length - 1 === index) {
-                return rest + "and" + word
-            }else {
-                let rest = rest + "and" + word + ",";
-                return rest + word + ","
-            }
-        }     
-    )}  
-    return beginningOfSentence + rest;
-}
-*/
